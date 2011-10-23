@@ -1,0 +1,29 @@
+{
+  "author": "Marsup",
+  "name": "poolp",
+  "description": "Poolp helps you to deal with a parameterized pool of objects.",
+  "version": "0.0.1",
+  "keywords": ["pool"],
+  "repository": {
+    "type" : "git",
+    "url": "https://github.com/Marsup/poolp"
+  },
+  "bugs": {
+    "url": "https://github.com/Marsup/poolp/issues"
+  },
+  "main": "lib/poolp",
+  "scripts": {
+    "test": "vows --spec tests/*.js"
+  },
+  "engines": {
+    "node": ">= 0.4"
+  },
+  "dependencies": {
+    "underscore": "1.2.x",
+    "async": "0.1.x"
+  },
+  "devDependencies": {
+    "vows": "0.5.x",
+    "gleak": "0.2.x"
+  }
+}
